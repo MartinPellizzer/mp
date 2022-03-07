@@ -9,16 +9,25 @@
     <title>Document</title>
 </head>
 
-<body>
-    <div class="">
-        <div class="container h-screen flex flex-row">
-            <div class="bg-red-200 w-64 flex flex-col">
-                <a href="offer.html">Offer</a>
+<body class="bg-slate-900">
+    <div class="container h-screen flex flex-row">
+        <div class="w-64 flex flex-col px-8 py-16 overflow-y-scroll">
+            <div class="navigation-section flex flex-col">
+                <span>Marketing Stuff</span>
+                <a href="/marketing/offer.html">Offer</a>
+                <a href="/marketing/email.html">Email</a>
+            </div>
+            <div class="navigation-section flex flex-col">
+                <span>Playable Games</span>
                 <a href="#">Pong</a>
+                <a href="#">Brick</a>
+                <a href="#">Tetris</a>
+                <a href="#">Space Invaders</a>
+                <a href="#">Super Mario</a>
             </div>
-            <div class="bg-lime-200 flex-auto">
-                <canvas id="gameCanvas" width="800" height="600"></canvas>
-            </div>
+        </div>
+        <div class="flex-auto">
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
         </div>
     </div>
     <script>
@@ -32,6 +41,8 @@
         var paddle2Y = 250;
         var player1Score = 0;
         var player2Score = 0;
+        const WINNING_SCORE = 3;
+        var showingWinScreen = false;
         const PADDLE_THICKNESS = 10;
         const PADDLE_HEIGHT = 100;
 
@@ -65,6 +76,12 @@
         }
 
         function ballReset() {
+            if (player1Score >= WINNING_SCORE ||
+                player2Score >= WINNING_SCORE) {
+                player1Score = 0;
+                player2Score = 0;
+                showingWinScreen = true;
+            }
             ballSpeedX = -ballSpeedX;
             ballX = canvas.width / 2;
             balllY = canvas.height / 2;
@@ -82,6 +99,9 @@
         }
 
         function moveEverything() {
+            if (showingWinScreen) {
+                return;
+            }
             computerMovement();
 
             ballX = ballX + ballSpeedX;
@@ -90,18 +110,23 @@
                 if (ballY > paddle1Y &&
                     ballY < paddle1Y + PADDLE_HEIGHT) {
                     ballSpeedX = -ballSpeedX;
+                    var deltaY = ballY - (paddle1Y + (PADDLE_HEIGHT / 2));
+                    console.log(deltaY)
+                    ballSpeedY = deltaY * 0.1;
                 } else {
-                    ballReset();
                     player2Score++;
+                    ballReset();
                 }
             }
             if (ballX > canvas.width) {
                 if (ballY > paddle2Y &&
                     ballY < paddle2Y + PADDLE_HEIGHT) {
                     ballSpeedX = -ballSpeedX;
+                    var deltaY = ballY - (paddle2Y + (PADDLE_HEIGHT / 2));
+                    ballSpeedY = deltaY * 0.1;
                 } else {
-                    ballReset();
                     player1Score++;
+                    ballReset();
                 }
             }
             if (ballY < 0) {
@@ -113,8 +138,13 @@
         }
 
         function drawEverything() {
-            // console.log(ballX)
             colorRect(0, 0, canvas.width, canvas.height, 'black');
+
+            if (showingWinScreen) {
+                canvasContext.fillStyle = 'white';
+                canvasContext.fillText('click to continue', canvas.width - 100, 100);
+                return;
+            }
             colorRect(0, paddle1Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'white');
             colorRect(canvas.width - PADDLE_THICKNESS, paddle2Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'white');
             colorCircle(ballX, ballY, 10, 'white')
