@@ -105,7 +105,7 @@ li {
 }
 
 li:before {
-    content: '▢';
+    /* content: '▢'; */
     padding-right: 0.8rem;
 }
 
@@ -185,10 +185,29 @@ section {
     border-radius: 5px;
 }
 
+/* PAGE INDEX */
+.page-index span {
+    display: block;
+    color: var(--color-slate-100);
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding-bottom: 1.6rem;
+}
+.page-index a {
+    color: var(--color-slate-400);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
 .list-item svg{
 }
 
-
+.position-sticky {
+    position: sticky;
+}
+.position-fixed {
+    position: fixed;
+}
 
 .overflow-scroll { overflow: scroll; }
 .overflow-x-scroll {overflow-x: scroll; }
@@ -260,6 +279,7 @@ section {
 .w-16 { width: 6.4rem; } /* 64px */
 .w-32 { width: 12.8rem; } /* 128px */
 .w-64 { width: 25.6rem; } /* 256px */
+.w-128 { width: 51.2rem; } /* 256px */
 
 .h-4 { height: 1.6rem; } /* 16px */
 .h-6 { height: 2.4rem; } /* 16px */
