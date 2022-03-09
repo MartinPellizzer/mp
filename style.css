@@ -199,6 +199,21 @@ section {
     font-weight: 500;
 }
 
+
+
+/* EXAMPLE BOX */
+.example-box {
+    background-color: var(--color-slate-800);
+    padding: 2.0rem;
+    border-radius: 1.6rem;
+    border: 1px solid var(--color-slate-700);
+}
+
+.example-box li {
+    color: var(--color-slate-400)
+}
+
+
 .list-item svg{
 }
 
