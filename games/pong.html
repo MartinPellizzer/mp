@@ -57,6 +57,14 @@
             };
         }
 
+        function handleMouseClick(evt) {
+            if (showingWinScreen) {
+                player1Score = 0;
+                player2Score = 0;
+                showingWinScreen = false;
+            }
+        }
+
         window.onload = function () {
             console.log("hello");
             canvas = document.getElementById('gameCanvas');
@@ -68,6 +76,8 @@
                 drawEverything();
             }, 1000 / frames);
 
+            canvas.addEventListener('mousedown', handleMouseClick);
+
             canvas.addEventListener('mousemove',
                 function (evt) {
                     var mousePos = calculateMousePos(evt);
@@ -78,8 +88,6 @@
         function ballReset() {
             if (player1Score >= WINNING_SCORE ||
                 player2Score >= WINNING_SCORE) {
-                player1Score = 0;
-                player2Score = 0;
                 showingWinScreen = true;
             }
             ballSpeedX = -ballSpeedX;
@@ -137,14 +145,27 @@
             }
         }
 
+        function drawNet() {
+            for (var i = 0; i < canvas.height; i += 40) {
+                colorRect(canvas.width / 2 - 1, i, 2, 20, 'white');
+            }
+        }
+
         function drawEverything() {
             colorRect(0, 0, canvas.width, canvas.height, 'black');
 
             if (showingWinScreen) {
                 canvasContext.fillStyle = 'white';
-                canvasContext.fillText('click to continue', canvas.width - 100, 100);
+                if (player1Score >= WINNING_SCORE) {
+                    canvasContext.fillText('Left Player Wins', 350, 200);
+                }
+                else if (player2Score >= WINNING_SCORE) {
+                    canvasContext.fillText('Right Player Wins', 350, 200);
+                }
+                canvasContext.fillText('click to continue', 350, 500);
                 return;
             }
+            drawNet();
             colorRect(0, paddle1Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'white');
             colorRect(canvas.width - PADDLE_THICKNESS, paddle2Y, PADDLE_THICKNESS, PADDLE_HEIGHT, 'white');
             colorCircle(ballX, ballY, 10, 'white')
