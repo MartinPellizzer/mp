@@ -1,0 +1,6 @@
+# what is linux
+linuxc ias an operating system. interface between hardware and users. inputs > elaborate > output.
+linux is based on unix. is mostly free and opensource.
+
+## istall
+virual box

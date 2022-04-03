@@ -1,0 +1,15 @@
+# RESISTANCE
+
+everything has resistance.
+resistance is the opposition to electron flow in a circuit.
+symbol R, measured in ohm, abbreviated with symbol omega,
+most resistance: silver, copper, gold
+resistance is affected by temperature (usually positively correlated)
+resistance is affected by size (usually inversely correlated)
+resistivity: silver 1.0, all others are in relation to silver
+conductance: the ability of a material to pass electrons.
+espressed in G, known as Mho, symbol is an upside-down omega, G=1/R
+
+resistor: component design to have precise value of resitance
+fixed resistor, variable resistor
+tollerance: the amount of variation the resistor has
