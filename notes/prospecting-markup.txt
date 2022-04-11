@@ -1,0 +1,115 @@
+## Email Prospecting
+
+Email Prospecting >> Social Prospecting
+Warning: Bad emails do more harm than good.
+
+Tools:
+- Schedule & Analytics: YesWare, Signals, Tout, TellWise, your CRM...
+- Search: Google, Social Media, Scraping Tools...
+
+Email Alternatives:
+- Messaging: Linkedin Inbox, Facebook Messenger, Twitter DM...
+
+
+
+### 3 Email Prospecting Rules
+
+1. Deliverability Rate - [just use text]
+- no bulk email
+- no images
+- no hyperlinks
+- no attachments
+- no spammy words
+- no 2 people of same company at same time
+- no too many emails to 1 person
+- no non-existent email
+- be careful with sensitive industries
+
+2. Open Rate
+- increase familiarity, be persistent across all channels
+- no long subject lines
+- use 50 chars or less (3 to 6 words)
+- no questions in subject lines
+- use list, referral, or statement subject lines
+- no impersonal or boring subject lines
+- use compliments, humor, or tongue-in-cheek
+
+3. Conversion Rate
+- personalize more with high-value prospects
+- use common ground and add something personal with low-value prospects
+- ask for appointment, qualifying info, or introduction to decision makers
+
+
+
+### Plan Your Email
+
+Mistakes To Avoid:
+- too long
+- incomprehensible jargon
+- lots of useless words
+- feature-focused product dump
+- cheerleaders who blab on their amazing companies
+- getting the prospect name wrong
+
+Analyze:
+- what is their role?
+- what do you know about their style?
+- how do they consume info?
+- when do they consume info?
+- how familiar are they with you?
+
+Plan:
+- number of email to send?
+- short and sweet? or more detailed?
+- hard hitting? or soft?
+- direct?
+- standalone?
+- part of an SPC campaign?
+- nurturing? or action oriented?
+- cross-platform?
+
+Personalize:
+- tailor the message to your audience
+- know your client specific problems
+- step into their shoes
+
+
+
+### 4 elements of an effective prospecting email
+1. hook: compelling subject line and opening
+2. relate: demonstrate you understand their problems. show empathy.
+3. bridge: connect the dot between thier problems and your solution.
+4. ask: be clear and ask them directly for something.
+
+#### hook
+[kendra lee, the sales magnet]
+never use "hi ___" in front of a name
+subject: COO - the thoughest job in the bank
+Lawrence,
+a recent [authorative] report state that ...
+
+#### relate
+people make decisions based on emotion.
+relate emotionally to your prospect problems.
+
+the COOs I work with tell me theat the increasing complexity of the banking environment has made their job harder and more stressful than ever.
+
+#### bridge
+answer the question WIIFM?
+speak your prospect language.
+
+my tem and i help coos lik you reduce complexity and stress with strategis to optimize growht and profit, mitigate credit risk, allocate resources effectively, and minimize regulatory surprises.
+
+#### ask
+ask, ask, ask.
+
+while i don't know if wea re a good fit for your bank, why don't we shedule a short call to help me learn more about your unique challenges? frome there we can decide if it makes sense to set yp a deeper conversations. how about next thursday at 3:00pm?
+
+### practice, practice, practice
+writing good messages is not easy. stop talking about yourself, step into your prospect shoes, speak their language.
+
+### the best time to send emails
+probably in the morning for B2B. write emails outside of the golden hours, and schedule them for the GH.
+
+### pause before you press "send"
+always proof-read your emails. no typo. take 10 minutes away and read it again.
