@@ -1,7 +1,7 @@
 ## Email Prospecting
 
 Email Prospecting >> Social Prospecting
-Warning: Bad emails do more harm than good.
+Warning: Bad emails do more harm than good
 
 Tools:
 - Schedule & Analytics: YesWare, Signals, Tout, TellWise, your CRM...
@@ -25,7 +25,7 @@ Email Alternatives:
 - no non-existent email
 - be careful with sensitive industries
 
-2. Open Rate
+2. Open Rate - [short, sweet, personal]
 - increase familiarity, be persistent across all channels
 - no long subject lines
 - use 50 chars or less (3 to 6 words)
@@ -34,7 +34,7 @@ Email Alternatives:
 - no impersonal or boring subject lines
 - use compliments, humor, or tongue-in-cheek
 
-3. Conversion Rate
+3. Conversion Rate - [pitch and ask]
 - personalize more with high-value prospects
 - use common ground and add something personal with low-value prospects
 - ask for appointment, qualifying info, or introduction to decision makers
@@ -75,41 +75,51 @@ Personalize:
 
 
 
-### 4 elements of an effective prospecting email
-1. hook: compelling subject line and opening
-2. relate: demonstrate you understand their problems. show empathy.
-3. bridge: connect the dot between thier problems and your solution.
-4. ask: be clear and ask them directly for something.
+### 4 Prospecting Email Elements
+Hook > Relate > Bridge > Ask
 
-#### hook
-[kendra lee, the sales magnet]
-never use "hi ___" in front of a name
-subject: COO - the thoughest job in the bank
-Lawrence,
-a recent [authorative] report state that ...
+Hook:
+- compelling subject line and opening
+- no "hi" in front of the name
+[
+    Subject: COO - the thoughest job in the bank
 
-#### relate
-people make decisions based on emotion.
-relate emotionally to your prospect problems.
+    Lawrence,
 
-the COOs I work with tell me theat the increasing complexity of the banking environment has made their job harder and more stressful than ever.
+    a recent [authorative] report state that ...
+]
 
-#### bridge
-answer the question WIIFM?
-speak your prospect language.
+Relate:
+- show you understand their problems (empathy)
+[
+    the COOs I work with tell me that
+    the increasing complexity of the banking environment
+    has made their job harder and more stressful than ever
+]
 
-my tem and i help coos lik you reduce complexity and stress with strategis to optimize growht and profit, mitigate credit risk, allocate resources effectively, and minimize regulatory surprises.
+Bridge:
+- connect the dots between their problems and your solution.
+- answer the question WIIFM?
+- speak your prospect language.
+[
+    my team and I help people like you reduce complexity and stress
+    with strategies to optimize growth and profit, mitigate credit risk,
+    allocate resources effectively, and minimize regulatory surprises
+]
 
-#### ask
-ask, ask, ask.
+Ask:
+- ask, ask, ask
+- be clear and ask them directly for something
+[
+  while I don't know if we are a good fit for your bank,
+  why don't we schedule a short call to help me learn more about your unique challenges?
+  from there we can decide if it makes sense to set up a deeper conversations
+  how about next Thursday at 3:00pm?  
+]
 
-while i don't know if wea re a good fit for your bank, why don't we shedule a short call to help me learn more about your unique challenges? frome there we can decide if it makes sense to set yp a deeper conversations. how about next thursday at 3:00pm?
-
-### practice, practice, practice
-writing good messages is not easy. stop talking about yourself, step into your prospect shoes, speak their language.
-
-### the best time to send emails
-probably in the morning for B2B. write emails outside of the golden hours, and schedule them for the GH.
-
-### pause before you press "send"
-always proof-read your emails. no typo. take 10 minutes away and read it again.
+Additional Notes:
+- practice, practice, practice
+- talk about them, not you
+- send in morning for B2B.
+- write outside GH, schedule inside GH.
+- pause before read, no typos
